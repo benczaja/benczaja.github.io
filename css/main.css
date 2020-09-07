@@ -102,7 +102,7 @@ body {
   margin: 20px 0;
 }
 .container a {
-  color:  rgb(80,80,80); /*#27A822;*/
+  color:  #16a085; /*#27A822;*/
 }
 .container a:hover {
   color: #4169E1;/*#267723;*/
