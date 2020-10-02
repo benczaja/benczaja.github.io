@@ -7,8 +7,8 @@ html, body {
 }
 
 body { 
-    //background-color: #ffb;
-    background-image: url("http://localhost:1313/img/glassy_cells_2.png");
+    /*background-color: #ffb;*/
+    background-image: url("https://benczaja.github.io/img/glassy_cells_2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
