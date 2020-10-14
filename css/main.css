@@ -168,14 +168,18 @@ body {
 .social-links li a:hover {
   color: #000;
 }
+.flex-container {
+  display: flex;
+
+}
 .avatar {
-  float: left;
-  padding-top: 0%;
-  padding-right: 10%;
-  padding-bottom: 0%;
-  width: 40%;
+  flex: 1;
+  padding: 5px;
+  margin-right: 20px;
+  width: 40vh;
   text-align: center;
   background: rgba(255, 255, 1, 0.55);
+  border: 2px solid red;
 }
 
 .avatar h3{
@@ -192,10 +196,13 @@ body {
 
 .biotext {
   font-family: 'Source Sans Pro', sans-serif;
-  margin-left:40%;
+  flex: 1;
+  padding: 15px;
+  width: 60vh;
+
+  border: 2px solid red;
 }
 .biotext h3{
-
   text-align: left;
   line-height: 30px;
   font-size: 33px;
