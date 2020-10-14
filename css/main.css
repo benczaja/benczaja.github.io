@@ -180,7 +180,7 @@ body {
   //padding-left: 160px;
   text-align: center;
   width:500px;
-  height:400px;
+  height:350px;
   background: rgba(255, 255, 1, 0.0);
   //border: 2px solid red;
 }
@@ -202,7 +202,7 @@ body {
   //padding-left: 5px;
   //border: 2px solid red;
   width:500px;
-  height:400px;
+  height:350px;
 }
 .biotext h3{
   text-align: left;
@@ -228,13 +228,13 @@ body {
   }
 .avatar{
   width:202px;
-  height:131px;
+  height:350px;
   border-right:none;
   border-bottom:1px solid black;
   }
   .biotext{
     width:202px;
-    height:107px;
+    height:350px;
   }
   
 }
