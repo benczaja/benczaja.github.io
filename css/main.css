@@ -171,13 +171,11 @@ body {
 .flex-container {
   display:inline-flex;
   flex-wrap:wrap;
-  //border:1px solid black;
 }
 .flex-direction{
   flex-direction: row;
 }
 .avatar {
-  //padding-left: 160px;
   text-align: center;
   width:500px;
   height:350px;
@@ -199,7 +197,6 @@ body {
 
 .biotext {
   font-family: 'Source Sans Pro', sans-serif;
-  //padding-left: 5px;
   //border: 2px solid red;
   width:500px;
   height:350px;
@@ -217,7 +214,8 @@ body {
   line-height: 25px;
   font-size: 20px;
   color: black;
-  background: rgba(1, 200, 1, 0.0);
+  background: rgba(255, 255, 255, 0.3);
+
 
 
 }
@@ -226,22 +224,33 @@ body {
   .flex-direction{
   flex-direction:column;
   }
-.avatar{
-  width:202px;
+ .avatar{
+  text-align: center;
+
+  width:250px;
   height:350px;
   border-right:none;
+  padding-left: 5px;
   border-bottom:1px solid black;
   }
   .biotext{
-    width:202px;
-    height:350px;
+    width:250px;
+    padding-left: 15px;
+    height:480px;
+    background: rgba(255, 255, 255, 0.3);
   }
   
+  .biotext h3{
+    text-align: center;
+    font-size: 32px;
+  }
+  .biotext h4{
+    text-align: center;
+    font-size: 16px;
+  }
+
+  
 }
-
-
-
-
 
 
 .blog-post{
