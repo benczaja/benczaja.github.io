@@ -169,14 +169,14 @@ body {
   color: #000;
 }
 .flex-container {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
 
 }
 .avatar {
   flex: 1;
   padding: 5px;
-  margin-right: 20px;
-  width: 40vh;
+  margin-left: 20%;
   text-align: center;
   background: rgba(255, 255, 1, 0.55);
   border: 2px solid red;
@@ -197,9 +197,8 @@ body {
 .biotext {
   font-family: 'Source Sans Pro', sans-serif;
   flex: 1;
-  padding: 15px;
-  width: 60vh;
-
+  padding: 5px;
+  width: 130vh;
   border: 2px solid red;
 }
 .biotext h3{
