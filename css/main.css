@@ -173,8 +173,9 @@ body {
   padding-top: 0%;
   padding-right: 10%;
   padding-bottom: 0%;
-  width: auto;
+  width: 40%;
   text-align: center;
+  background: rgba(255, 255, 1, 0.55);
 }
 
 .avatar h3{
@@ -191,8 +192,10 @@ body {
 
 .biotext {
   font-family: 'Source Sans Pro', sans-serif;
+  margin-left:40%;
 }
 .biotext h3{
+
   text-align: left;
   line-height: 30px;
   font-size: 33px;
@@ -205,7 +208,7 @@ body {
   line-height: 25px;
   font-size: 20px;
   color: black;
-  //background: rgba(255, 255, 255, 0.55);
+  background: rgba(1, 200, 1, 0.55);
 
 
 }
