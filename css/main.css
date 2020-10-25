@@ -7,12 +7,15 @@ html, body {
 }
 
 body { 
-    //background-color: #ffb;
     background-image: url("https://benczaja.github.io/img/glassy_cells_2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1080px; 
+    margin: 0 auto !important; 
+    float: none !important; 
 }
+
 
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -179,8 +182,12 @@ body {
   text-align: center;
   width:500px;
   height:350px;
-  background: rgba(255, 255, 1, 0.0);
+  //background: rgba(255, 255, 1, 0.6);
   //border: 2px solid red;
+  margin-top: 1em;
+  margin-bottom:1em;
+  margin-left:1em;
+  margin-right:1em;
 }
 
 .avatar h3{
@@ -193,6 +200,8 @@ body {
   height:220px;
   object-fit: cover;
   border-radius: 35%;
+  //border: 2px solid red;
+
 }
 
 .biotext {
@@ -200,6 +209,11 @@ body {
   //border: 2px solid red;
   width:500px;
   height:350px;
+  margin-top: 1em;
+  margin-bottom:1em;
+  margin-left:1em;
+  margin-right:1em;
+
 }
 .biotext h3{
   text-align: left;
@@ -214,38 +228,50 @@ body {
   line-height: 25px;
   font-size: 20px;
   color: black;
-
-
-
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 510px) {
   .flex-direction{
   flex-direction:column;
   }
  .avatar{
   text-align: center;
-
   width:250px;
   height:350px;
-  border-right:none;
-  padding-left: 5px;
-  border-bottom:1px solid black;
+  border-bottom:5px solid black;
+  margin-top: 2em;
+  margin-bottom:2em;
+  margin-left:8em;
+  margin-right:0em;
   }
+
+  .img-circle {
+  width:220px;
+  height:220px;
+  object-fit: cover;
+  border-radius: 35%;
+}
   .biotext{
     width:250px;
     padding-top:  22px;
-    padding-left: 15px;
+    padding-left: 5px;
     height:480px;
+    margin-top: 0em;
+    margin-bottom:2em;
+    margin-left:8em;
+    margin-right:8em;
+
   }
   
   .biotext h3{
     text-align: center;
     font-size: 32px;
+    font-color
   }
   .biotext h4{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+
   }
 }
 
@@ -317,8 +343,8 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0px;
+  margin-left: 0px;
 
 }
 
@@ -343,6 +369,8 @@ html {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
   background-color: rgba(255, 255, 255, 0.6);
 
 }
@@ -593,7 +621,7 @@ html {
   margin-left: 91.666667%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 776px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
