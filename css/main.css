@@ -238,11 +238,11 @@ body {
   text-align: center;
   width:250px;
   height:350px;
-  border-bottom:5px solid red;
+  border-bottom:5px solid black;
   margin-top: 2em;
   margin-bottom:2em;
-  margin-left:6em;
-  margin-right:6em;
+  margin-left:2em;
+  margin-right:2em;
   }
 
   .img-circle {
@@ -258,8 +258,8 @@ body {
     height:480px;
     margin-top: 0em;
     margin-bottom:2em;
-    margin-left:6em;
-    margin-right:6em;
+    margin-left:2em;
+    margin-right:2em;
 
   }
   
